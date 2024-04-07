@@ -38,7 +38,7 @@ img {
     border-radius: 1.25rem;
     padding: 1rem;
     background-color: var(--white);
-    box-shadow: repeat(2px, 3) solid var(-- darkBlue);
+    box-shadow: 0px .5rem 2rem 0px var(--grayishBlue);
 }
 
 .content {
@@ -66,7 +66,8 @@ img {
 
 .attribution {
     margin-top: 1rem;
-    font-size: 11px;
+    /* 11px */
+    font-size: 0.6875rem;
     text-align: center;
 }
 
