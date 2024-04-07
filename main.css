@@ -1,0 +1,41 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+    --footerLink: hsl(228, 45%, 44%);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    outline: 0;
+    min-width: 320px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    /* 15px */
+    font-size: 0.9375rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--footerLink);
+}
