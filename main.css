@@ -14,24 +14,58 @@ html {
 *::after,
 *::before {
     box-sizing: inherit;
-}
-
-body {
     margin: 0;
     border: 0;
     outline: 0;
-    min-width: 320px;
+}
+
+body {
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Outfit', sans-serif;
+    background-color: var(--lightGray);
 }
 
-p {
+img {
+    width: 100%;
+}
+
+.container {
+    /* 320px */
+    width: 20rem;
+    /* 85px 28px */
+    margin: 5.3125rem auto;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    background-color: var(--white);
+    box-shadow: repeat(2px, 3) solid var(-- darkBlue);
+}
+
+.content {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.qr-code {
+    border-radius: .625rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--darkBlue);
+}
+
+.p {
+    width: 90%;
+    margin: 1rem auto 0;
     /* 15px */
     font-size: 0.9375rem;
+    color: var(--grayishBlue);
 }
 
 .attribution {
+    margin-top: 1rem;
     font-size: 11px;
     text-align: center;
 }
