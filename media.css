@@ -1,5 +1,6 @@
 @media (min-width:1440px) {
-    body {
-        background-color: #000;
+    .container {
+        /* 152px */
+        margin: 9.5rem auto;
     }
 }
