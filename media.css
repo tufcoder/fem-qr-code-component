@@ -4,4 +4,8 @@
         /* 152px */
         margin: 9.5rem auto;
     }
+
+    .attribution {
+        font-size: 1rem;
+    }
 }
